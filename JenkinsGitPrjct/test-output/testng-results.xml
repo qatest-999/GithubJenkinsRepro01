@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T18:45:56 IST" name="Default suite" finished-at="2024-09-28T18:48:37 IST" duration-ms="161158">
+  <suite started-at="2024-10-02T13:13:42 IST" name="Default suite" finished-at="2024-10-02T13:17:04 IST" duration-ms="202028">
     <groups>
     </groups>
-    <test started-at="2024-09-28T18:45:56 IST" name="Default test" finished-at="2024-09-28T18:48:37 IST" duration-ms="161158">
-      <class name="Main.Pages.Test.BrokenLinkTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:Main.Pages.Test.BrokenLinkTest@765d7657]" started-at="2024-09-28T18:45:56 IST" name="SetUp" finished-at="2024-09-28T18:48:37 IST" duration-ms="160703" status="PASS">
+    <test started-at="2024-10-02T13:13:42 IST" name="Default test" finished-at="2024-10-02T13:17:04 IST" duration-ms="202028">
+      <class name="Main.Pages.Test.ActionClasClickTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Main.Pages.Test.ActionClasClickTest@5c6648b0]" started-at="2024-10-02T13:13:42 IST" name="SetUp" finished-at="2024-10-02T13:15:47 IST" duration-ms="125482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="getPageTitleTest()[pri:0, instance:Main.Pages.Test.BrokenLinkTest@765d7657]" started-at="2024-09-28T18:48:37 IST" name="getPageTitleTest" finished-at="2024-09-28T18:48:37 IST" duration-ms="173" status="PASS">
+        <test-method signature="doubleClickTest()[pri:1, instance:Main.Pages.Test.ActionClasClickTest@5c6648b0]" started-at="2024-10-02T13:15:47 IST" name="doubleClickTest" finished-at="2024-10-02T13:15:59 IST" duration-ms="11441" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPageTitleTest -->
-      </class> <!-- Main.Pages.Test.BrokenLinkTest -->
+        </test-method> <!-- doubleClickTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Main.Pages.Test.ActionClasClickTest@5c6648b0]" started-at="2024-10-02T13:15:59 IST" name="teardown" finished-at="2024-10-02T13:16:16 IST" duration-ms="17445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Main.Pages.Test.ActionClasClickTest@5c6648b0]" started-at="2024-10-02T13:16:16 IST" name="SetUp" finished-at="2024-10-02T13:17:03 IST" duration-ms="46514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="rightClickTest()[pri:2, instance:Main.Pages.Test.ActionClasClickTest@5c6648b0]" started-at="2024-10-02T13:17:03 IST" name="rightClickTest" finished-at="2024-10-02T13:17:03 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClickTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Main.Pages.Test.ActionClasClickTest@5c6648b0]" started-at="2024-10-02T13:17:03 IST" name="teardown" finished-at="2024-10-02T13:17:04 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Main.Pages.Test.ActionClasClickTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
